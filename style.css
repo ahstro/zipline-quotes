@@ -1,0 +1,111 @@
+html {
+  box-sizing: border-box;
+      height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  background-position: bottom left;
+    background-repeat: no-repeat;
+     background-image: url(http://i.imgur.com/Ie9M4QY.png);
+     background-color: #eee;
+      justify-content: space-between;
+       flex-direction: column;
+          font-family: "GlacialIndifferenceRegular", sans-serif;
+            font-size: 16px;
+            min-width: 18em;
+             overflow: hidden;
+              display: flex;
+               height: 100%;
+                color: #444;
+}
+
+header {
+  justify-content: space-around;
+   padding-bottom: 2em;
+       background: linear-gradient(to bottom, rgba(238,238,238,.8), rgba(238,238,238,.0));
+        flex-wrap: wrap;
+          display: flex;
+}
+
+h1 {
+  font-family: "DancingScriptOTRegular", sans-serif;
+  font-weight: 700;
+  white-space: nowrap;
+   font-style: normal;
+    font-size: 3em;
+       margin: 0;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+   margin: 0;
+}
+
+li {
+  flex-direction: column;
+     align-items: center;
+     line-height: .7em;
+       font-size: .8em;
+         display: flex;
+         padding: .5em 1em;
+          cursor: pointer;
+}
+
+main {
+  align-self: center;
+}
+
+blockquote {
+  background-color: rgba(238,238,238,.8);
+         max-width: 24em;
+         font-size: 1.2em;
+           padding: 1em;
+            border: .2em solid #444;
+            margin: auto .5em;
+}
+
+blockquote:hover {
+  background-color: rgba(68,68,68,.9);
+             color: #eee;
+}
+
+footer {
+  padding-right: .5em;
+    padding-top: 2em;
+     background: linear-gradient(to top, rgba(238,238,238,.8), rgba(238,238,238,.0));
+     text-align: right;
+      font-size: .8rem;
+       position: relative;
+         bottom: 1px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  text-decoration: none;
+          outline: none;
+            color: #444;
+}
+
+#heart {
+  position: relative;
+     color: #e80a41;
+       top: 1px;
+}
+
+::-moz-selection {
+  background-color: #444;
+             color: #eee;
+}
+
+::selection {
+  background-color: #444;
+             color: #eee;
+}
